@@ -1,0 +1,41 @@
+/* 
+
+Required for the tabs otherwise they will NOT work
+
+*/
+
+/* #container */
+.ui-tabs-vertical {     
+    display: -webkit-flex; 
+    display: flex; 
+    text-align: center;
+}
+
+/* nav ul*/
+.ui-tabs-vertical .ui-tabs-nav { position: relative; width: 100%;}
+
+/* nav li */
+.ui-tabs-vertical .ui-tabs-nav li { display:block;}
+/* nav li a */
+.ui-tabs-vertical .ui-tabs-nav li a {         
+    color: #FFA52D; 
+    text-decoration: none; 
+    width:100%;
+    display:inline-block; 
+    padding-top:5%;
+    padding-bottom:5%; 
+    text-align: center;
+}
+
+/* nav li a */
+.ui-tabs-vertical .ui-tabs-nav li a:hover {         
+    color: #fff;
+}
+
+
+/* active tab */
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { background-color: #b282b2;}
+
+/* tab content */
+.ui-tabs-vertical .ui-tabs-panel { border: 0px;width: 80%; margin: auto; padding: 2%; background-color: #fff;}
+

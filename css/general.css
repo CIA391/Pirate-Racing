@@ -1,0 +1,28 @@
+/*
+Author: Cipher Storm
+Date started: 17/03/17
+
+*/
+
+*{margin:0%; padding:0%; font-family: helvetica, verdana, arial, sans-serif; font-size: 12px;}
+
+/* Index Page */
+body{background-color: ##ab82b2;}
+#wrapper{text-align: center;}
+
+header{font-weight: bold; font-size: 1.5em; padding:3%; background-color: #ab82b2; position: relative; color:#000;}
+article{padding: 7%; position: relative; background-color: #fff;}
+footer{padding:5%; background-color: #ab82b2; position: relative; color:#000; font-size: 1.5em}
+
+
+.img{padding: 1%; width: 10%;}
+#text{font-weight: bold;}
+#text > a{text-decoration: none;}
+
+/* 404 Page */
+
+.404{padding: 1%; position: relative; background-color: #fff;}
+.uhoh{font-size: 2em; }
+.text{text-align: center; line-height: 2; }
+.hamster{width: 10%;}
+#header{text-align: center;}
